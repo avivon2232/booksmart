@@ -5,7 +5,6 @@ import './Navbar.css';
 import BuildDropdown from './BuildDropdown';
 import QualityDropdown from './QualityDropdown';
 
-
 function Navbar() {
   const [click, setClick] = useState(false);
   const [builddropdown, setBuildDropdown] = useState(false);
